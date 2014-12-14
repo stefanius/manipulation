@@ -8,6 +8,10 @@ use Stef\Manipulation\Interfaces\ManipulatorInterface;
 abstract class AbstractStringManipulator implements ManipulatorInterface {
     public function manipulate($input)
     {
+        if ($input === null) {
+            return null;
+        }
+
         if (!is_string($input)) {
             throw new InvalidArgumentException("Expected string");
         }
