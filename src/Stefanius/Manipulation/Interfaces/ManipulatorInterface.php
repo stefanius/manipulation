@@ -1,10 +1,12 @@
 <?php
 
-namespace Stef\Manipulation\Interfaces;
+namespace Stefanius\Manipulation\Interfaces;
 
-interface ManipulatorInterface {
+interface ManipulatorInterface
+{
     /**
      * @param $input
+     *
      * @return string
      */
     public function manipulate($input);

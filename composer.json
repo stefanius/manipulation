@@ -1,5 +1,5 @@
 {
-    "name": "stef/manipulation",
+    "name": "stefanius/manipulation",
     "description": "Basic classes for manipulate values. You can build your own by inherit this package",
     "authors": [
         {
@@ -12,6 +12,6 @@
         "php": ">=5.4"
     },
     "autoload": {
-        "psr-4": { "Stef\\Manipulation\\": "src/Stef/Manipulation/" }
+        "psr-4": { "Stefanius\\Manipulation\\": "src/Stefanius/Manipulation/" }
     }
 }
